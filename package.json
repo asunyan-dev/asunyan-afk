@@ -11,7 +11,24 @@
   "author": "Asuka Libessart",
   "type": "module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "types": "types.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js",
+      "types": "./types.d.ts"
+    }
+  },
+  "files": [
+    "index.js",
+    "types.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asunyan-dev/asunyan-afk"
+  },
+  "bugs": {
+    "url": "https://github.com/asunyan-dev/asunyan-afk/issues"
+  },
+  "homepage": "https://github.com/asunyan-dev/asunyan-afk#readme"
 }
