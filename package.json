@@ -1,0 +1,17 @@
+{
+  "name": "asunyan-afk",
+  "version": "1.0.0",
+  "description": "Module to make an AFK system for a Discord bot",
+  "keywords": [
+    "AFK-system",
+    "javascript",
+    "typescript"
+  ],
+  "license": "MIT",
+  "author": "Asuka Libessart",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
